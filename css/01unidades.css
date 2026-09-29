@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(217, 101, 249);
+}
+#uno{
+    display: block;
+    width: 300px;
+    height: 300px;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#dos{
+    display: block;
+    width: 300pt;
+    height: 300pt;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#tres{
+    display: block;
+    width: 3in;
+    height: 3in;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#cuatro{
+    display: block;
+    width: 3cm;
+    height: 3cm;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#cinco{
+    display: block;
+    width: 30mm;
+    height: 30mm;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#seis{
+    display: block;
+    width: 30pc;
+    height: 30pc;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#siete{
+    display: block;
+    width: 300Q;
+    height: 300Q;
+     background: rgb(216, 135, 239);
+    margin: 10px auto;
+    color: yellow;
+}
+#ocho { 
+  display: block; 
+  width: 20%; 
+  height: 20%; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#nueve { 
+  display: block; 
+  width: 20vw; 
+  height: 20vh; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#diez { 
+  display: block; 
+  width: 35vw; 
+  height: 15vh; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#once { 
+  display: block; 
+  width: 50vw; 
+  height: 25vh; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#doce { 
+  display: block; 
+  width: 15vw; 
+  height: 40vh; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#trece { 
+  display: block; 
+  width: 60vw; 
+  height: 10vh; 
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+} 
+
+#catorce { 
+  display: block; 
+  width: 80vw;
+  height: 5vh;  
+  background: rgb(216, 135, 239); 
+  margin: 10px auto; 
+  color: yellow; 
+}
+
