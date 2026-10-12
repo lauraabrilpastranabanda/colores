@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: #550699;
+    background: linear-gradient(90deg, rgb(231, 246, 174) 0%, rgb(249, 202, 92) 50%, rgb(249, 176, 66) 100%);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    background: rgb(169, 56, 0);
+    color: rgb(250, 117, 119);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: rgb(221, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #430101;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 15px auto;
+    padding: 14px 0px;
+    border-radius: 8px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.ejemplo-seccion {
+    margin-bottom: 25px;
+}
+
+.contenedor-flex {
+    border: 5px solid #542727;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.129);
+}
+
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(197, 219, 170);
+    border: 3px solid black;
+    color: rgb(163, 23, 54);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item.larga {
+    width: 100px;
+}
+
+#uno {
+    display: flex;
+}
+
+#dos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+#cuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cinco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}

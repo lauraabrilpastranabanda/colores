@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica CSS - Modelo de Caja</title>
+    <link rel="stylesheet" href="css/03modelocaja.css">
+</head>
+<body>
+    <nav><a href="index.html">REGRESAR</a></nav>
+    
+    <h1>Práctica: Modelo de Caja (Box Model)</h1>
+    
+    <section class="teoria">
+        <h2>1. Introducción Teórica</h2>
+        <p>El Modelo de Caja es la base del diseño web en CSS. Cada elemento HTML se representa como una caja rectangular. Esta caja se compone de cuatro partes esenciales de adentro hacia afuera: el contenido (content), el relleno (padding), el borde (border) y el margen (margin). Comprender cómo interactúan estas propiedades y cómo afecta box-sizing al tamaño final es crucial para estructurar cualquier sitio web.</p>
+    </section>
+
+    <section class="ejemplos">
+        <h2>2. Ejemplos Básicos</h2>
+        
+        <div class="ejemplo-box">
+            <h3>Ejemplo 1: Caja con Padding (Espacio interno)</h3>
+            <div class="caja-1">Contenido con relleno interno de 20px.</div>
+        </div>
+
+        <div class="ejemplo-box">
+            <h3>Ejemplo 2: Caja con Margin (Espacio externo)</h3>
+            <div class="caja-2">Caja con separación externa de 30px en todos sus lados.</div>
+        </div>
+
+        <div class="ejemplo-box">
+            <h3>Ejemplo 3: Caja con Border</h3>
+            <div class="caja-3">Caja con un borde sólido pronunciado de 10px.</div>
+        </div>
+
+        <div class="ejemplo-box">
+            <h3>Ejemplo 4: Propiedad Box-sizing por defecto (content-box)</h3>
+            <div class="caja-4">Mide 200px + paddings + borders = Se altera el tamaño real.</div>
+        </div>
+
+        <div class="ejemplo-box">
+            <h3>Ejemplo 5: Propiedad Box-sizing corregida (border-box)</h3>
+            <div class="caja-5">Mide exactamente 200px totales; el padding y border se quedan dentro.</div>
+        </div>
+    </section>
+     <section class="video-container">
+        <h2>3. Video Explicativo</h2>
+        <video controls>
+            <source src="video/modelocaja.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </section>
+</body>
+</html>

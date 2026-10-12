@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,15 +6,15 @@
 
 @font-face {
     font-family: "MiRoboto";
-    src: url("Bolten\ Rough.otf") format("opentype");
+    src: url("Bolten Rough.otf") format("opentype");
 }
 @font-face {
     font-family: "1";
-    src: url("April\ Flowers\ -\ TTF\ \(1\).ttf") format("truetype");
+    src: url("April Flowers - TTF (1).ttf") format("truetype");
 }
 @font-face {
     font-family: "2";
-    src: url("April\ Flowers\ -\ TTF.ttf") format("truetype");
+    src: url("April Flowers - TTF.ttf") format("truetype");
 }
 @font-face {
     font-family: "3";
@@ -30,22 +30,66 @@
 }
 @font-face {
     font-family: "6";
-    src: url("StarTracks\ \(1\).ttf") format("truetype");
+    src: url("StarTracks (1).ttf") format("truetype");
 }
 @font-face {
     font-family: "7";
     src: url("StartAgainDemoRegular.ttf") format("truetype");
 }
+@font-face {
+    font-family: "rose";
+    src: url("Rose.ttf") format("truetype");
+}
+@font-face {
+    font-family: "banda";
+    src: url("Banda.ttf") format("truetype");
+}
+@font-face {
+    font-family: "brithasdine";
+    src: url("BrithasdineFree.otf") format("opentype");
+}
+@font-face {
+    font-family: "lisasdragons";
+    src: url("Lisas Dragons (1).ttf") format("truetype");
+}
+@font-face {
+    font-family: "mibandamanda";
+    src: url("Mi Banda Manda.ttf") format("truetype");
+}
+@font-face {
+    font-family: "rosebud";
+    src: url("Rosebud Antique.ttf") format("truetype");
+}
+@font-face {
+    font-family: "scarfbandana";
+    src: url("ScarfBandana.otf") format("opentype");
+}
+@font-face {
+    font-family: "sunrose";
+    src: url("Sunrose ttf.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vtksbandana";
+    src: url("VTKS bandana.ttf") format("truetype");
+}
+@font-face {
+    font-family: "wina";
+    src: url("wina aprilina.otf") format("opentype");
+}
+@font-face {
+    font-family: "ziggy";
+    src: url("Ziggy Zoe.ttf") format("truetype");
+}
 
-h2{
+h2 {
     text-align: center;
-    font-size:100px;
-    color:darkorchid;
+    font-size: 100px;
+    color: darkorchid;
     text-shadow: 5px 5px 0px rgb(246, 147, 251);
     font-family: "MiRoboto", sans-serif;
 }   
 
-a{
+a {
     display: block;
     text-align: center;
     text-decoration: none; 
@@ -62,7 +106,7 @@ a:nth-of-type(1) {
     color: rgb(59, 2, 53);
     border: ivory dotted 5px;
     border-radius: 0px 50px 50px 0px;
-    box-shadow: 3px 4px 10px rgb(238, 111, 206);
+    box-shadow: 3px 4px 10px rgb(238, 111, 2066);
 }
 
 a:nth-of-type(2) {
@@ -89,7 +133,7 @@ a:nth-of-type(4) {
     color: white;
     border: white dashed 4px;
     border-radius: 10px;
-    box-shadow: 0px 5px 0px #b2102f;   /* Efecto botón 3D plano */
+    box-shadow: 0px 5px 0px #b2102f;   
 }
 
 a:nth-of-type(5) {
@@ -100,12 +144,99 @@ a:nth-of-type(5) {
     border-radius: 0px;
     box-shadow: 5px 5px 0px black;
 }
-a:hover{
-    font-family: "5", sans-serif;
+
+a:nth-of-type(6) {
+    font-family: "banda", sans-serif;
     background: rgb(144, 76, 233);
-    color: rgb(9, 61, 195);
+    color: white;
     border: #d498f9 groove 5px;
-    border-radius: 0px;
-    box-shadow: 0px 0px 5px rgb(247, 138, 196);    
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.2);
+}
+
+a:nth-of-type(7) {
+    font-family: "rosebud", sans-serif;
+    background: #e040fb;
+    color: black;
+    border: ivory solid 4px;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+a:nth-of-type(8) {
+    font-family: "scarfbandana", sans-serif;
+    background: #212121;
+    color: #00e5ff;
+    border: #00e5ff dotted 4px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px #00e5ff;
+}
+
+a:nth-of-type(9) {
+    font-family: "wina", sans-serif;
+    background: #b677f9;
+    color: white;
+    border: white solid 3px;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 3px 3px 0px black;
+}
+
+a:nth-of-type(10) {
+    font-family: "vtksbandana", sans-serif;
+    background: #aa00ff;
+    color: #ffea00;
+    border: #ffea00 double 5px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #ffea00;
+}
+
+a:nth-of-type(11) {
+    font-family: "sunrose", sans-serif;
+    background: #ff7675;
+    color: white;
+    border: white dashed 3px;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 8px white;
+}
+
+a:nth-of-type(12) {
+    font-family: "ziggy", sans-serif;
+    background: #ff1744;
+    color: #212121;
+    border: black solid 4px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 4px 4px 0px black;
+}
+
+a:nth-of-type(3n+1):hover {
+    font-family: "5", sans-serif;
+    text-transform: lowercase;
+    background: rgb(144, 76, 233);
+    color: #00eeff;
+    border: #00eeff groove 5px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgb(0, 238, 255);
     transform: scale(1.1);
+}
+
+a:nth-of-type(3n+2):hover {
+    font-family: "rose", sans-serif;
+    text-transform: lowercase;
+    background: rgb(245, 111, 161);
+    color: white;
+    border: white dashed 4px;
+    border-radius: 0px 50px;
+    box-shadow: 5px 5px 0px rgb(74, 20, 140);
+    transform: scale(1.05);
+}
+
+a:nth-of-type(3n):hover {
+    font-family: "lisasdragons", sans-serif;
+    text-transform: lowercase;
+    background: rgb(35, 2, 96);
+    color: rgb(246, 147, 251);
+    border: rgb(246, 147, 251) double 6px;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 10px rgb(246, 147, 251);
+    transform: scale(1.1) rotate(1deg);
 }

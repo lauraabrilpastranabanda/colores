@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background: #e6ccb2;
+    background: linear-gradient(135deg, #ede0d4 0%, #ddbdf6 50%, #7f5539 100%);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #7f5539;
+    color: #ede0d4;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: #43281c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #43281c;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #43281c;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #43281c;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 15px auto;
+    padding: 14px 0px;
+    border-radius: 8px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #43281c;
+    border-radius: 5px;
+}
+
+.ejemplo-seccion {
+    margin-bottom: 25px;
+}
+
+.caja-animada {
+    width: 100px;
+    height: 100px;
+    background-color: #c3998d;
+    border: 5px solid #7f5539;
+    margin: 10px auto;
+    color: #43281c;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+@keyframes cambiarColor {
+    from { background-color: #cfa787; }
+    to { background-color: #7f5539; color: #deb691; }
+}
+#uno {
+    animation: cambiarColor 2s infinite alternate;
+}
+
+@keyframes desplazar {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+#dos {
+    animation: desplazar 3s infinite ease-in-out;
+}
+
+@keyframes rotar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+#tres {
+    animation: rotar 4s linear infinite;
+}
+
+@keyframes latido {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+#cuatro {
+    border-radius: 50%;
+    animation: latido 1.5s infinite;
+}
+
+#cinco {
+    transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+}
+#cinco:hover {
+    transform: translateY(-15px);
+    background-color: #a17a6b;
+    color: #ede0d4;
+    cursor: pointer;
+}

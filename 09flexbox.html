@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX EN CSS</title>
+    <link rel="stylesheet" href="css/09flexbox.css">
+    <a href="index.html">REGRESAR</a>
+</head>
+<body>
+    <h1>FLEXBOX EN CSS</h1>
+    
+    <h2>TEORÍA BÁSICA</h2>
+    <p>Flexbox o El Modelo de Caja Flexible es un sistema de diseño unidimensional en CSS. Está diseñado para organizar elementos en filas o columnas de manera eficiente. Su principal ventaja es la capacidad de distribuir el espacio disponible de forma dinámica, permitiendo alinear y centrar componentes de manera muy sencilla mediante propiedades aplicadas a un contenedor padre.</p>
+
+    <h2>5 EJEMPLOS BÁSICOS</h2>
+    
+    <div class="ejemplo-seccion">
+        <h3>Ejemplo 1: Alineación Horizontal Básica (display: flex)</h3>
+        <div id="uno" class="contenedor-flex">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+
+    <div class="ejemplo-seccion">
+        <h3>Ejemplo 2: Distribución de Espacio (justify-content: space-between)</h3>
+        <div id="dos" class="contenedor-flex">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+
+    <div class="ejemplo-seccion">
+        <h3>Ejemplo 3: Centrado Absoluto (justify-content & align-items: center)</h3>
+        <div id="tres" class="contenedor-flex">
+            <div class="item larga">Centrado</div>
+        </div>
+    </div>
+
+    <div class="ejemplo-seccion">
+        <h3>Ejemplo 4: Dirección en Columna (flex-direction: column)</h3>
+        <div id="cuatro" class="contenedor-flex">
+            <div class="item">A</div>
+            <div class="item">B</div>
+        </div>
+    </div>
+
+    <div class="ejemplo-seccion">
+        <h3>Ejemplo 5: Ajuste de Línea (flex-wrap: wrap)</h3>
+        <div id="cinco" class="contenedor-flex">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+        </div>
+    </div>
+
+    <h2>VIDEO EXPLICATIVO</h2>
+    <video controls>
+        <source src="video/flexbox.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+</body>
+</html>
